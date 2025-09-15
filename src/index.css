@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+
+/* Smooth loading bar animation */
+.loading-bar {
+  transition: width 0.3s ease-out;
+}
+
+/* Ensure the loading bar stays on top */
+.fixed {
+  z-index: 9999;
+}
