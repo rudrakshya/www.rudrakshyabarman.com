@@ -309,8 +309,8 @@ export default function Collaboration() {
                     </svg>
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Email</h3>
-                  <a href="mailto:rudrakshya91@gmail.com" className="text-blue-600 hover:text-blue-700 font-medium">
-                    rudrakshya91@gmail.com
+                  <a href="mailto:contact@rudrakshyabarman.com" className="text-blue-600 hover:text-blue-700 font-medium">
+                    contact@rudrakshyabarman.com
                   </a>
                 </div>
                 
@@ -330,7 +330,7 @@ export default function Collaboration() {
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a 
-                  href="mailto:rudrakshya91@gmail.com" 
+                  href="mailto:contact@rudrakshyabarman.com" 
                   className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 text-center"
                 >
                   Send Email

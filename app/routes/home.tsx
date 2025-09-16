@@ -914,7 +914,7 @@ export default function Home() {
               Explore Collaboration
             </Link>
             <a 
-              href="mailto:rudrakshya91@gmail.com" 
+              href="mailto:contact@rudrakshyabarman.com" 
               className="px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-blue-600 transform hover:-translate-y-1 transition-all duration-300 text-center"
             >
               Send Email
