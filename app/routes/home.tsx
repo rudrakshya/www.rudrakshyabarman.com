@@ -57,8 +57,8 @@ export default function Home() {
                   FOUNDER & TECH LEADER
                 </span>
               </div>
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
-                Hi, I'm <span className="text-blue-600">Rudrakshya Barman</span>
+              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-6 flex flex-wrap items-center text-3xl sm:text-4xl md:text-5xl">
+                Hi, I'm <span className="text-blue-600 ml-2">Rudrakshya Barman</span>
               </h1>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                 Visionary entrepreneur and technology leader with 13+ years of experience building enterprise solutions from ground up. 
