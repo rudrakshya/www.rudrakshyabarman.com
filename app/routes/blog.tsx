@@ -3,7 +3,7 @@ import type { Route } from "./+types/blog";
 
 export function meta({}: Route.MetaArgs) {
   const title = "Blog - Rudrakshya Barman";
-  const description = "Thoughts, insights, and tutorials on software engineering, technology, and entrepreneurship.";
+  const description = "Documentation about my stories, thinking and experience.";
   const imageUrl = "https://rudrakshyabarman.com/brand.png";
   const url = "https://rudrakshyabarman.com/blog";
   
@@ -116,11 +116,14 @@ export default function Blog() {
                 WRITING & INSIGHTS
               </span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Blog
+            <h2 className="text-xl font-serif text-gray-700 mb-2">
+              ✍️ Rudrakshya's blog
+            </h2>
+            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 font-serif">
+              Stay Curious
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Thoughts, insights, and tutorials on software engineering, technology, and entrepreneurship.
+              Documentation about my stories, thinking and experience.
             </p>
             
             {/* Stats */}
@@ -211,11 +214,11 @@ export default function Blog() {
               <input
                 type="email"
                 placeholder="Your email address"
-                className="flex-grow px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-300"
+                className="flex-grow px-4 py-3 rounded-lg bg-white/90 text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-300 shadow-md backdrop-blur-sm border border-white/20"
               />
               <button
                 type="submit"
-                className="px-6 py-3 bg-white text-blue-600 font-semibold rounded-lg hover:bg-gray-100 transition-colors duration-300 shadow-md"
+                className="px-6 py-3 bg-white text-blue-600 font-semibold rounded-lg hover:bg-gray-100 transition-colors duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
               >
                 Subscribe
               </button>
